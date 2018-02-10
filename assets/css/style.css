@@ -12,8 +12,8 @@
 }
 
 .navBar-fixed {
-  display: inline-block;
-  float: none;
+  /* display: inline-block;
+  float: none; */
   vertical-align: top;
   background: url('/assets/img/tech.jpeg') !important;
 }
