@@ -6,6 +6,18 @@
   --button-hover-color: rgba(161, 11, 11, 0.3);
 }
 
+.nav-wrapper {
+  font-size: 2em;
+  background: url('/assets/img/tech.jpeg') !important;
+}
+
+.navBar-fixed {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+  background: url('/assets/img/tech.jpeg') !important;
+}
+
 /* Headshot transformation effect */
 #portrait:hover {
   transition: 0.5s;
@@ -30,6 +42,7 @@
 
 .container-portfolio {
   margin-top: 50px;
+  padding-top: 20px;
 }
 
 #logo {
@@ -88,10 +101,6 @@ a {
   text-decoration: none;
 }
 
-.container-portfolio {
-  padding-top: 20px;
-}
-
 button {
   text-transform: uppercase;
   padding: 1em 2em;
@@ -108,17 +117,6 @@ button:hover {
   background-color: var(--button-hover-color);
   border-color: var(--button-hover-color);
   cursor: pointer;
-}
-
-.nav-wrapper {
-  font-size: 2em;
-  background: url('/assets/img/tech.jpeg') !important;
-}
-
-.navBar-fixed {
-  display: inline-block;
-  float: none;
-  vertical-align: top;
 }
 
 .container {

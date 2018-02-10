@@ -8,9 +8,9 @@
 
 ### Screenshots of this Project
 
-![Portfolio](https://raw.github.com/captnwalker/Portfolio3/master/screenshot/port6a.gif "Portfolio")
+![Portfolio](https://raw.github.com/captnwalker/Portfolio6/master/screenshot/port6a.gif "Portfolio")
 
-![Portfolio](https://raw.github.com/captnwalker/Portfolio3/master/screenshot/port6b.gif "Portfolio")
+![Portfolio](https://raw.github.com/captnwalker/Portfolio6/master/screenshot/port6b.gif "Portfolio")
 
 ### Technologies Utilized
 

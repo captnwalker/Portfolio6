@@ -3,7 +3,7 @@ $(document).ready(function () {
 
 })
 
-$(".button-collapse").sideNav();
+// $(".button-collapse").sideNav();
 
 $(window).on('load resize', function () {
   if ($(window).width() < 799) {
