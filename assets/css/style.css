@@ -108,7 +108,7 @@ button:hover {
 
 .nav-wrapper {
   font-size: 2em;
-  background-image: url('/assets/img/tech.jpeg') !important;
+  background: url('/assets/img/tech.jpeg') !important;
 }
 
 .navBar {
