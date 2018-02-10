@@ -108,6 +108,7 @@ button:hover {
 
 .nav-wrapper {
   font-size: 2em;
+  background-image: url('/assets/img/tech.jpeg');
 }
 
 .navBar {
@@ -140,7 +141,9 @@ button:hover {
   background: linear-gradient(var(--bg-color), var(--bg-color)) repeat-x top / 100% 100%, var(--bg-url) center center no-repeat / cover;
 }
 
-.left {}
+.left {
+  /* No attributes */
+}
 
 .right {
   --bg-color: rgba(43, 43, 43, 0.8);
