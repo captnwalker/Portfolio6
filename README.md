@@ -4,17 +4,18 @@
 
 ## Link to Live Site
 
-[Steve Walker's Portfolio](https://captnwalker.github.io/Portfolio3/ "Portfolio")
+[Steve Walker's Portfolio](https://captnwalker.github.io/Portfolio6/ "Portfolio")
 
 ### Screenshots of this Project
 
-![Portfolio](https://raw.github.com/captnwalker/Portfolio3/master/screenshot/screenshot1.png "Portfolio")
+![Portfolio](https://raw.github.com/captnwalker/Portfolio3/master/screenshot/port6a.gif "Portfolio")
 
-![Portfolio](https://raw.github.com/captnwalker/Portfolio3/master/screenshot/screenshot2.png "Portfolio")
+![Portfolio](https://raw.github.com/captnwalker/Portfolio3/master/screenshot/port6b.gif "Portfolio")
 
 ### Technologies Utilized
 
 * CSS
+* HTML5
 * JavaScript
 * Materialize
 

@@ -88,6 +88,10 @@ a {
   text-decoration: none;
 }
 
+.container-portfolio {
+  padding-top: 20px;
+}
+
 button {
   text-transform: uppercase;
   padding: 1em 2em;
@@ -111,7 +115,7 @@ button:hover {
   background: url('/assets/img/tech.jpeg') !important;
 }
 
-.navBar {
+.navBar-fixed {
   display: inline-block;
   float: none;
   vertical-align: top;
