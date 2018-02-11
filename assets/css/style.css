@@ -8,14 +8,14 @@
 
 .nav-wrapper {
   font-size: 2em;
-  background: url('/assets/img/tech.jpeg') !important;
+  /* background: url('/assets/img/tech.jpeg') !important; */
 }
 
 .navBar-fixed {
   /* display: inline-block;
   float: none; */
   vertical-align: top;
-  background: url('/assets/img/tech.jpeg') !important;
+  /* background: url('/assets/img/tech.jpeg') !important; */
 }
 
 /* Headshot transformation effect */
