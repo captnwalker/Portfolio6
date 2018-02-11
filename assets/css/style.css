@@ -11,6 +11,10 @@
   /* background: url('/assets/img/tech.jpeg') !important; */
 }
 
+#bgimg {
+  background: url('/assets/img/tech.jpeg') !important;
+}
+
 .navBar-fixed {
   /* display: inline-block;
   float: none; */
