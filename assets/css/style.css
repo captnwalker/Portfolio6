@@ -31,13 +31,20 @@
   width: 35px;
 }
 
+.connect:hover {
+  background-color: rgba(218, 165, 32, .8) !important;
+  transition: 0.5s;
+  height: 40px;
+  width: 40px;
+}
+
 .btn-floating:hover {
   background-color: goldenrod !important;
 }
 
 .e-link:hover {
   transition: 0.5s;
-  font-size: 1.3em;
+  font-size: 1.2em;
 }
 
 .container-portfolio {
