@@ -20,20 +20,20 @@
 
 /* Headshot transformation effect */
 #portrait:hover {
-  transition: 0.5s;
+  transition: 0.5s ease-in-out !important;
   height: 150px;
   width: 150px;
   z-index: 500;
 }
 
 .connect {
-  height: 35px;
-  width: 35px;
+  height: 25px;
+  width: 25px;
 }
 
 .connect:hover {
   background-color: rgba(218, 165, 32, .8) !important;
-  transition: 0.5s;
+  transition: 0.5s ease-in-out !important;
   height: 40px;
   width: 40px;
 }
@@ -43,7 +43,7 @@
 }
 
 .e-link:hover {
-  transition: 0.5s;
+  transition: 0.5s ease-in-out !important;
   font-size: 1.2em;
 }
 
@@ -169,6 +169,7 @@ button:hover {
   padding-left: 10px;
   padding-right: 10px;
 }
+
 
 @media(max-width:500px) {
   .container {
