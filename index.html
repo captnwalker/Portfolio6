@@ -12,20 +12,21 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
 
   <!-- Materialize - Compiled and minified CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
-
-  <!-- Bootstrap - Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="assets\css\materialize.min.css">
+ 
+  
+  <!-- Bootstrap 3.37 - Compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-    crossorigin="anonymous">
+      crossorigin="anonymous">
 
-  <!-- Optional theme -->
+  <!-- Optional Bootstrap theme -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
-    crossorigin="anonymous">
+    crossorigin="anonymous"> 
 
   <!-- jQuery uncompressed CDN -->
-  <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+  <!-- <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script> -->
 
-  <!-- This Links point to Your style sheets; you may/will need to alter these paths to your sites file structure. -->
+  <!-- Local CSS -->
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 </head>
@@ -221,21 +222,9 @@
 
   </footer>
 
-  <script src="assets/js/modal.js"></script>
-
-  <!-- JAVASCRIPT - Must be final item in <body>. -->
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-  <!-- Compiled and minified Materialize JavaScript -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-
-  <!-- Link to local JavaScript file -->
-  <script type="text/javascript" src="assets/js/main.js"></script>
-
   <!-- Image Preloader -->
   <div class="hidden">
     <script type="text/javascript">
-      < !-- //--><![CDATA[//><!--
       var images = new Array()
 
       function preload() {
@@ -259,8 +248,21 @@
         "https://captnwalker.github.io/Portfolio6/assets/img/friendfinder1.png"
 
       )
-      //--><!]]>
     </script>
+
+    <!-- JAVASCRIPT - Must be final item in <body>. -->
+    <!-- Link to Local jQuery file -->
+    <script type="text/javascript" src="assets\js\jquery-3.3.1.min.js"></script>
+
+    <!-- Compiled and minified Materialize JavaScript -->
+    <script src="assets\js\materialize.min.js"></script>
+
+    <!-- Link to local JavaScript file -->
+    <script type="text/javascript" src="assets/js/main.js"></script>
+
+    <!-- Script to call Credits modal -->
+    <script src="assets/js/modal.js"></script>
+
   </div>
 
 </body>
