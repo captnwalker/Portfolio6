@@ -7,7 +7,7 @@ $(document).ready(function () {
 
 $(window).on('load resize', function () {
   if ($(window).width() < 799) {
-    window.location = "https://captnwalker.github.io/Portfolio3/portfolio.html"
+    window.location = "https://captnwalker.github.io/Portfolio6/portfolio.html"
   }
 });
 
