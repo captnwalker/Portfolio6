@@ -1,4 +1,4 @@
-# Steve Walker's Portfolio
+# Steve Walker's Portfolio - Updated March 2018
 
 >Showcase of Steve Walker's Projects
 
@@ -12,17 +12,20 @@
 
 ![Portfolio](https://raw.github.com/captnwalker/Portfolio6/master/screenshot/port6b.gif "Portfolio")
 
-### Technologies Utilized
+### Tech Stack
 
-* CSS
+* CSS3
 * HTML5
 * JavaScript
 * Materialize
+* FlatIcons
 
 ----
 
 ### Author
 
 * **Steve Walker**  | [LinkedIn](https://www.linkedin.com/in/stevelwalker/)
+
+#### Initial Deployment - January 2018 | Last update - March 2018
 
 ![Daftpunktocat-Thomas](https://octodex.github.com/images/daftpunktocat-thomas.gif)
