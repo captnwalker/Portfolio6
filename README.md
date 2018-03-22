@@ -1,6 +1,6 @@
 # Steve Walker's Portfolio - Updated March 2018
 
->Showcase of Steve Walker's Projects
+>Showcase of Steve Walker's Projects through March 2018
 
 ## Link to Live Site
 
@@ -17,7 +17,7 @@
 * CSS3
 * HTML5
 * JavaScript
-* Materialize
+* MaterializeCSS
 * FlatIcons
 
 ----
