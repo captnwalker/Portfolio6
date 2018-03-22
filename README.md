@@ -26,6 +26,6 @@
 
 * **Steve Walker**  | [LinkedIn](https://www.linkedin.com/in/stevelwalker/)
 
-#### Initial Deployment - January 2018 | Last update - March 2018
+#### *Initial Deployment - January 2018 | Last update - March 2018*
 
 ![Daftpunktocat-Thomas](https://octodex.github.com/images/daftpunktocat-thomas.gif)
