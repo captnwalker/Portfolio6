@@ -71,3 +71,9 @@ $(document).ready(function() {
 
   Materialize.scrollFire(options);
 });
+
+// Display toast instructions onload of index.html for 1.2 seconds, and on click of Portfolio logo
+Materialize.toast('Please Scroll Down', 1200, 'rounded', function() {
+  var container = $('#toast-container');
+  window.location.href = '#';
+});

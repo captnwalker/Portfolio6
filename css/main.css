@@ -6908,6 +6908,9 @@ h5 {
   background-color: #007064 !important;
   padding-right: 1.5625rem !important; }
 
+.toast {
+  background: rgba(130, 240, 248, 0.45); }
+
 .row-1,
 .row-2,
 .row-3,
