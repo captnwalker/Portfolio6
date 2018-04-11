@@ -6893,7 +6893,8 @@ h5 {
   background-color: #0097a7; }
 
 .desc {
-  line-height: 1.7rem; }
+  line-height: 1.7rem;
+  font-size: 1.2em; }
 
 .page-footer {
   background: #212121; }
@@ -6925,7 +6926,7 @@ h5 {
 
 @media only screen and (max-width: 600px) {
   .banner {
-    font-size: 1.8em !important; }
+    font-size: 2em !important; }
 
   .sub-banner {
     font-size: 1.5em !important; }

@@ -93,6 +93,7 @@ h5 {
 
 .desc {
   line-height: 1.7rem;
+  font-size: 1.2em;
 }
 
 .page-footer {
@@ -136,7 +137,7 @@ h5 {
 // Media queries for small viewports
 @media #{$small-and-down} {
   .banner {
-    font-size: 1.8em !important;
+    font-size: 2em !important;
   }
   .sub-banner {
     font-size: 1.5em !important;
