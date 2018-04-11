@@ -130,6 +130,12 @@ h5 {
 
 @media #{$small-and-down} {
   .banner {
+    font-size: 1.8em !important;
+  }
+  .sub-banner {
     font-size: 1.5em !important;
+  }
+  .main-header {
+    height: 220px;
   }
 }

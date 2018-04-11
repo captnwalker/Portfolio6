@@ -6921,4 +6921,10 @@ h5 {
 
 @media only screen and (max-width: 600px) {
   .banner {
-    font-size: 1.5em !important; } }
+    font-size: 1.8em !important; }
+
+  .sub-banner {
+    font-size: 1.5em !important; }
+
+  .main-header {
+    height: 220px; } }

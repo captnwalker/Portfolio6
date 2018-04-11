@@ -8,7 +8,7 @@
 
 ### Screenshots of this Project
 
-![Portfolio](https://raw.github.com/captnwalker/Portfolio6/master/screenshot/port6.jpg 'Portfolio')
+![Portfolio](https://raw.github.com/captnwalker/Portfolio6/master/img/portfolio.png 'Portfolio')
 
 ### Tech Stack
 
