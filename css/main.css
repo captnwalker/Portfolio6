@@ -6916,6 +6916,10 @@ h5 {
 .row-7 {
   opacity: 0; }
 
+.sidenav-header {
+  padding-top: 20px;
+  padding-bottom: 10px; }
+
 #slw {
   font-family: 'Raleway', sans-serif; }
 
@@ -6927,4 +6931,4 @@ h5 {
     font-size: 1.5em !important; }
 
   .main-header {
-    height: 220px; } }
+    height: 180px; } }

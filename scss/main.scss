@@ -123,11 +123,17 @@ h5 {
   opacity: 0;
 }
 
+.sidenav-header {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
 // Changes font for 1st modal only
 #slw {
   font-family: 'Raleway', sans-serif;
 }
 
+// Media queries for small viewports
 @media #{$small-and-down} {
   .banner {
     font-size: 1.8em !important;
@@ -136,6 +142,6 @@ h5 {
     font-size: 1.5em !important;
   }
   .main-header {
-    height: 220px;
+    height: 180px;
   }
 }
