@@ -1,235 +1,514 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-  <title>Steve Walker</title>
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
 
-  <!-- Materialize - Compiled and minified CSS -->
-  <link rel="stylesheet" href="assets\css\materialize.min.css">
- 
-  
-  <!-- Bootstrap 3.37 - Compiled and minified CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-      crossorigin="anonymous">
+  <!-- Import CSS -->
+  <link type="text/css" rel="stylesheet" href="css/main.css" />
 
-  <!-- Optional Bootstrap theme -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
-    crossorigin="anonymous"> 
+  <!-- Import Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500" rel="stylesheet">
 
-  <!-- jQuery uncompressed CDN -->
-  <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+  <!-- Import FontAwesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl"
+    crossorigin="anonymous"></script>
 
-  <!-- Local CSS -->
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+  <!-- Force refresh favicon -->
   <link rel="icon" type="image/x-icon" href="favicon.ico?v=2" />
 
+  <title>Steve Walker's Portfolio</title>
 </head>
 
 <body>
-  <div class="navbar-fixed">
-    <nav class="blue accent-3 z-depth-3">
+  <!-- Begin Nav -->
+  <header class="main-header">
+    <nav class="transparent z-index-0">
       <div class="nav-wrapper">
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#" data-activates="mobile-nav" class="button-collapse">
+          <i class="material-icons hide-on-large">menu</i>
+        </a>
+        <a href="index.html" class="brand-logo">Portfolio
+        </a>
+        <ul class="right hide-on-med-and-down">
+          <!-- <li class="active">
+            <a href="index.html">Home</a>
+          </li> -->
+          <!-- <li>
+            <a href="full-stack.html">Full Stack Apps</a>
+          </li>
+          <li>
+            <a href="uiux.html">UI/UX</a>
+          </li> -->
+          <li>
+            <a href="https://github.com/captnwalker" target="_blank" class="connect tooltipped" target="_blank" alt="GitHub" data-position="bottom"
+              data-delay="50" data-tooltip="View Github Repository">GitHub</a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/stevelwalker/" target="_blank" class="connect tooltipped" target="_blank" alt="LinkedIn"
+              data-position="bottom" data-delay="50" data-tooltip="Connect on LinkedIn">LinkedIn</a>
+          </li>
+          <li>
+            <a href="mailto:steve@stevewalker.us?Subject=Hello,%20I%20viewed%20your%20website%20and%20I%20have%20an%20inquiry.&body=Please include as much detail as possible and Thank You for contacting me."
+              target="_top" class="connect tooltipped" target="_blank" alt="Email" data-position="bottom" data-delay="50" data-tooltip="Send Email">Email</a>
+          </li>
 
-        <img src="assets/img/slw1.jpg" id="portrait" alt="Steve Walker" class="circle responsive-img" width="50px">
-
-        <span id="logo">&nbsp;&nbsp;Steve Walker&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; Full-Stack Web Dev</span>
-
-        <!-- New contact icons -->
-        <div class="col-sm-6 right">
-          <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <a href="#" data-activates="mobile-demo" class="button-collapse">
-              <i class="material-icons">menu</i>
-            </a>
-            <li>
-              <a href="https://www.linkedin.com/in/stevelwalker/" target="_blank">
-                <img class="connect tooltipped" src="assets/icons/lin.png" alt="LinkedIn" data-position="bottom" data-delay="50" data-tooltip="LinkedIn Profile">
-              </a>
-            </li>
-            <li>
-              <a href="https://twitter.com/captnwalker" target="_blank">
-                <img class="connect tooltipped" src="assets/icons/twitter-circular.png" alt="Twitter" data-position="bottom" data-delay="50"
-                  data-tooltip="Twitter Profile">
-              </a>
-            </li>
-            <li>
-              <a href="https://github.com/captnwalker" target="_blank">
-                <img class="connect tooltipped" src="assets/icons/git.png" alt="GitHub" data-position="bottom" data-delay="50" data-tooltip="Github Portfolio">
-              </a>
-            </li>
-            <li>
-              <a href="https://stackoverflow.com/users/8915865/captnwalker" target="_blank">
-                <img class="connect tooltipped" src="assets/icons/stackoverflow.png" alt="StackOverflow" data-position="bottom" data-delay="50"
-                  data-tooltip="StackOverflow Profile">
-              </a>
-            </li>
-            <li>
-              <a class="grey-text text-lighten-4 right" href="mailto:steve@stevewalker.us?Subject=Hello,%20I%20viewed%20your%20website%20and%20I%20have%20an%20inquery.&body=Please include as much detail as possible. Thank You for contacting me."
-                target="_top">
-                <img class="connect tooltipped" src="assets/icons/email.png" alt="eMail" data-position="bottom" data-delay="50" data-tooltip="eMail">
-              </a>
-            </li>
-            <!-- <li>
-              <a href="index.html">
-                <img class="connect tooltipped" src="assets/icons/home.png" height="50" width="50" alt="Home" data-position="bottom" data-delay="50"
-                  data-tooltip="Return to Home Page">
-              </a>
-            </li> -->
-            <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            </li>
-          </ul>
-
-          <!-- END New contact icons -->
-         
-        </div>
+        </ul>
+      </div>
+      <!-- SideNav 'Hamburger' menu -->
+      <ul class="slide-out side-nav" id="mobile-nav">
+        <i class="material-icons">menu</i>
+        </a>
+        <ul class="right">
+          <li>
+            <a href="https://github.com/captnwalker" target="_blank">GitHub</a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/stevelwalker/" target="_blank">LinkedIn</a>
+          </li>
+          <li>
+            <a href="mailto:steve@stevewalker.us?Subject=Hello,%20I%20viewed%20your%20website%20and%20I%20have%20an%20inquiry.&body=Please include as much detail as possible and Thank You for contacting me."
+              target="_top">Email</a>
+          </li>
+        </ul>
+        <!-- Banner Text -->
     </nav>
-    </div>
-  </div>
+    <h1 class="center">Steve Walker,
+      <small>MBA</small>
+    </h1>
+    <h4 class="center">UI/UX | Full Stack Web Dev | REACT</h4>
+  </header>
 
+  <!-- END Nav -->
 
-  <!-- Split Screen Body -->
-  <div class="container">
-
-    <div class="split left responsive-img">
-      <h1 id="logo">The Designer</h1>
-      <h5>Client-Side Expertise:
-        <BR>Java Script, Bootstrap, Materialize, CSS, HTML5, PhotoShop</h5>
-
-      <h5>Steve has spent years teaching Photoshop, HTML, CSS and
-        <br>has a passion for coding, photography and World travel.</h5>
-      <a href="portfolio.html">
-        <button>Learn More</button>
-      </a>
-    </div>
-
-    <div class="split right responsive-img">
-      <h1 id="logo">The Programmer</h1>
-      <h5>Server-Side Expertise:
-        <br>MongoDB, mySQL, Firebase, NODEjs, Express js, React, API's</h5>
-
-      <h5>Steve holds a FULL STACK BOOTCAMP certificate from
-        <br> UCF Division of Continuing Education as well as a
-        <br> Master's Degree in Business Administration (MBA).</h5>
-      <a href="portfolio.html">
-        <button>Learn More</button>
-      </a>
-    </div>
-  </div>
-
-  <!-- END Split Screen Body -->
-
-  <footer class="page-footer blue accent-3 z-depth-3">
-
-    <!-- <div class="footer-copyright"> -->
+  <!-- Begin Content -->
+  <section class="section section-main">
     <div class="container">
-      <ul> © 2018 Copyright | Steve Walker</ul> &nbsp;&nbsp;-&nbsp;&nbsp;
-      <ul>
-        <a class="e-link connect tooltipped" href="mailto:steve@stevewalker.us?Subject=Hello,%20I%20viewed%20your%20website%20and%20I%20have%20an%20inquery.&body=Please include as much detail as possible. Thank You for contacting me."
-          target="_top" data-position="top" data-delay="50" data-tooltip="eMail Steve">eMail
-        </a>
-      </ul>
-      &nbsp;|&nbsp;
-      <!-- Links -->
-      <ul>
-        <a class="e-link connect tooltipped" href="https://www.linkedin.com/in/stevelwalker/" target="_blank" data-position="top"
-          data-delay="50" data-tooltip="LinkedIn Profile">LinkedIn
-        </a>
-      </ul>
-      &nbsp;|&nbsp;
-      <ul>
-        <a href="https://twitter.com/captnwalker" class="e-link connect tooltipped" target="_blank" data-position="top" data-delay="50"
-          data-tooltip="Twitter Profile">Twitter
-        </a>
-      </ul>
-      &nbsp;|&nbsp;
-      <ul>
-        <a href="https://github.com/captnwalker" class="e-link connect tooltipped" target="_blank" data-position="top" data-delay="50"
-          data-tooltip="Github Portfolio">GitHub
-        </a>
-      </ul>
-      &nbsp;|&nbsp;
-      <ul>
-        <a href="https://stackoverflow.com/users/8915865/captnwalker" class="e-link connect tooltipped" target="_blank" data-position="top"
-          data-delay="50" data-tooltip="StackOverflow Profile">StackOverflow
-        </a>
-      </ul>
-      &nbsp;|&nbsp;
-      <ul>
-
-        <!-- Modal Trigger -->
-        <a class="modal-trigger e-link connect tooltipped" data-position="top" data-delay="50" data-tooltip="FlatIcon Credits" href="#modal1">Credits
-        </a>
-      </ul>
-      <!-- &nbsp;|&nbsp;
-      <ul>
-        <a href="index.html" class="e-link connect tooltipped" data-position="top" data-delay="50" data-tooltip="Return to Home Page">Home
-        </a>
-      </ul> -->
-
-      <!-- Modal Content -->
-      <div id="modal1" class="modal modal-fixed-footer">
-        <div class="modal-content">
-          <iframe src="assets/icons/flat_icon_credits.html" width="100%" height="95%"></iframe>
+      <!-- Row 1 -->
+      <div class="row row-1">
+        <div class="col m6 hide-on-small-only">
+          <div class="img-content">
+            <h3>About Me</h3>
+            <p class="desc">Accomplished Front-End Developer with Full Stack Experience. REACT, Laravel, PHP, JavaScript, MySql and Mongo.
+              Click the icon on my image for Bio.</p>
+          </div>
         </div>
-        <div class="modal-footer">
-          <a class="modal-action modal-close waves-effect waves-light btn grey darken-1">Dismiss</a>
+        <div class="col m6">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/gallery/slw.jpg" alt="">
+              <span class="card-title">Steve Walker,
+                <small>MBA</small>
+              </span>
+              <a href="#proj1" class="btn-floating halfway-fab waves-effect waves-light cyan darken-2 modal-trigger">
+                <i class="material-icons">info_outline</i>
+              </a>
+            </div>
+            <div class="card-content">
+              <p class="center-align">
+
+                <a class="waves-effect waves-teal btn-flat connect tooltipped" href="https://github.com/captnwalker" target="_blank" alt="GitHub"
+                  data-position="top" data-delay="50" data-tooltip="View Github Repository">GitHub</a>
+
+                <a class="waves-effect waves-teal btn-flat connect tooltipped" href="https://www.linkedin.com/in/stevelwalker/" target="_blank"
+                  alt="linkedIn" data-position="top" data-delay="50" data-tooltip="Connect on LinkedIn">LinkedIn</a>
+
+                <a class="waves-effect waves-teal btn-flat connect tooltipped" href="mailto:steve@stevewalker.us?Subject=Hello,%20I%20viewed%20your%20website%20and%20I%20have%20an%20inquiry.&body=Please include as much detail as possible and Thank You for contacting me."
+                  target="_top" class="connect tooltipped" target="_blank" alt="Email" data-position="top" data-delay="50"
+                  data-tooltip="Send Email">Email</a>
+
+              </p>
+            </div>
+          </div>
         </div>
       </div>
-      <!-- END Modal Content -->
 
-      <!-- Close footer div -->
+      <!-- Row 2 -->
+      <div class="row row-2">
+        <div class="col m6">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/gallery/redcarpet.jpg" alt="">
+              <span class="card-title">Red Carpet</span>
+              <a href="#proj2" class="btn-floating halfway-fab waves-effect waves-light cyan darken-2 modal-trigger">
+                <i class="material-icons">add</i>
+              </a>
+            </div>
+            <div class="card-content">
+              <p class="center-align">
+
+                <a class="waves-effect waves-teal btn-flat connect tooltipped" href="https://github.com/captnwalker" target="_blank" alt="GitHub"
+                  data-position="top" data-delay="50" data-tooltip="View this Projects Code">GitHub</a>
+
+                <a class="waves-effect waves-teal btn-flat connect tooltipped" href="http://red-carpet-app.herokuapp.com/" target="_blank"
+                  alt="Github" data-position="top" data-delay="50" data-tooltip="View the Live Site!">Live Site</a>
+
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col m6 hide-on-small-only">
+          <div class="img-content">
+            <h3>Red Carpet</h3>
+            <p class="desc">Create and manage your own personal list of award winning (and nominated films), with reviews, a watched list,
+              and priority lists based on which awards shows are coming up next. Red Carpet is the perfect tool for your
+              elitist movie-watching needs!
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Row 3 -->
+      <div class="row row-3">
+        <div class="col m6 hide-on-small-only">
+          <div class="img-content">
+            <h3>Reservationist</h3>
+            <p class="desc">Booking the best table in the house just got easier! "Reservationist-2" allows an individual user or company
+              to record and retrive reservation information. Reservationist is built in React with SCSS styling which permits
+              each individual element to occupy separate files making the product easily scalable and customizable by swapping
+              components in and out as required for a wide variety of end users. Reservationist is fully responsive for a
+              seamless mobile user experience.</p>
+          </div>
+        </div>
+        <div class="col m6">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/gallery/reservationist.jpg" alt="">
+              <span class="card-title">Reservationist</span>
+              <a href="#proj3" class="btn-floating halfway-fab waves-effect waves-light cyan darken-2 modal-trigger">
+                <i class="material-icons">add</i>
+              </a>
+            </div>
+            <div class="card-content">
+
+              <p class="center-align">
+                <a class="waves-effect waves-teal btn-flat connect tooltipped" href="https://github.com/captnwalker/reservationist-2" target="_blank"
+                  alt="GitHub" data-position="top" data-delay="50" data-tooltip="View this Projects Code">GitHub</a>
+
+                <a class="waves-effect waves-teal btn-flat connect tooltipped" href="https://reservationist-2.herokuapp.com/" target="_blank"
+                  alt="Live Site" data-position="top" data-delay="50" data-tooltip="View the Live Site!">Live Site</a>
+              </p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Row 4 -->
+      <div class="row row-4">
+        <div class="col m6">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/gallery/gif.gif" alt="">
+              <span class="card-title">Rant and Rave</span>
+              <a href="#proj4" class="btn-floating halfway-fab waves-effect waves-light cyan darken-2 modal-trigger">
+                <i class="material-icons">add</i>
+              </a>
+            </div>
+            <div class="card-content">
+
+              <p class="center-align">
+                <a class="waves-effect waves-teal btn-flat connect tooltipped" href="https://github.com/captnwalker/rant-and-rave" target="_blank"
+                  alt="GitHub" data-position="top" data-delay="50" data-tooltip="View this Projects Code">GitHub</a>
+
+                <a class="waves-effect waves-teal btn-flat connect tooltipped" href="https://#" target="_blank" alt="Live Site" data-position="top"
+                  data-delay="50" data-tooltip="View the Live Site!">Coming Soon</a>
+              </p>
+
+            </div>
+          </div>
+        </div>
+        <div class="col m6 hide-on-small-only">
+          <div class="img-content">
+            <h3>Rant and Rave</h3>
+            <p class="desc">Scream into the digital abyss. "Rant and Rave" is an exercise in building a MVC framework from scratch posing
+              as a Social Media platform. Similar to REACT, Angular or Laravel, this is built on a Custom MVC Framework written
+              in PHP. This framework does include PDO to help prevent SQL injection. </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Row 5 -->
+      <div class="row row-5">
+        <div class="col m6 hide-on-small-only">
+          <div class="img-content">
+            <h3>Restaurant Expense Manager</h3>
+            <p class="desc">"Expense-Manager" allows an individual user or company to track business expenses. Expense-Manager is built in
+              React with SCSS styling which permits each individual element to occupy separate files making the product easily
+              scalable and customizable by swapping components in and out as required for a wide variety of end users. The
+              app is fully responsive for a seamless mobile user experience.</p>
+          </div>
+        </div>
+        <div class="col m6">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/gallery/expense-manager.jpg" alt="">
+              <span class="card-title">Restaurant Expense Manager</span>
+              <a href="#proj5" class="btn-floating halfway-fab waves-effect waves-light cyan darken-2 modal-trigger">
+                <i class="material-icons">add</i>
+              </a>
+            </div>
+            <div class="card-content">
+              <p class="center-align">
+                <a class="waves-effect waves-teal btn-flat connect tooltipped" href="https://github.com/captnwalker/expense-manager" target="_blank"
+                  alt="GitHub" data-position="top" data-delay="50" data-tooltip="View this Projects Code">GitHub</a>
+
+                <a class="waves-effect waves-teal btn-flat connect tooltipped" href="https://expense-manager3.herokuapp.com/dashboard" target="_blank"
+                  alt="Live Site" data-position="top" data-delay="50" data-tooltip="View the Live Site!">Live Site</a>
+              </p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Row 6 -->
+      <div class="row row-6">
+        <div class="col m6">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/gallery/dilemma.jpg" alt="">
+              <span class="card-title">Dilemma Decider</span>
+              <a href="#proj6" class="btn-floating halfway-fab waves-effect waves-light cyan darken-2 modal-trigger">
+                <i class="material-icons">add</i>
+              </a>
+            </div>
+            <div class="card-content">
+              <p class="center-align">
+                <a class="waves-effect waves-teal btn-flat connect tooltipped" href="https://github.com/captnwalker/Dilemma-Decider" target="_blank"
+                  alt="GitHub" data-position="top" data-delay="50" data-tooltip="View this Projects Code">GitHub</a>
+
+                <a class="waves-effect waves-teal btn-flat connect tooltipped" href="https://dilemma-decider.herokuapp.com/" target="_blank"
+                  alt="Github" data-position="top" data-delay="50" data-tooltip="View the Live Site!">Live Site</a>
+              </p>
+
+            </div>
+          </div>
+        </div>
+        <div class="col m6 hide-on-small-only">
+          <div class="img-content">
+            <h3>Dilemma Decider</h3>
+            <p class="desc">Can't Decide? Let "Decision Maker" Do It For You! Written in REACT and presented with Bold and Vibrant SCSS Styling,
+              enter as many choices (options) as your paticular dilemma presents and Dilemma Decider will make that tough
+              decision for you. Media queries make this app as accessible and enjoyable on your mobile device as it is on
+              your desktop. Enjoy!</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Row 7 -->
+      <div class="row row-7">
+        <div class="col m6 hide-on-small-only">
+          <div class="img-content">
+            <h3>Personal Expense Manager</h3>
+            <p class="desc">"Personal-Expense-Manager" allows an individual user or company to track personal or business expenses. Expense-Manager
+              is built in React with SCSS styling which permits each individual element to occupy separate files making the
+              product easily scalable and customizable by swapping components in and out as required for a wide variety of
+              end users. The app is fully responsive for a seamless mobile user experience. This version of the Expense-Manager
+              has been customized for use by individuals.</p>
+          </div>
+        </div>
+        <div class="col m6">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/gallery/personal-expense-manager.jpg" alt="">
+              <span class="card-title">Personal Expense Manager</span>
+              <a href="#proj7" class="btn-floating halfway-fab waves-effect waves-light cyan darken-2 modal-trigger">
+                <i class="material-icons">add</i>
+              </a>
+            </div>
+            <div class="card-content">
+
+              <p class="center-align">
+                <a class="waves-effect waves-teal btn-flat connect tooltipped" href="https://github.com/captnwalker/personal-expense-manager"
+                  target="_blank" alt="GitHub" data-position="top" data-delay="50" data-tooltip="View this Projects Code">GitHub</a>
+
+                <a class="waves-effect waves-teal btn-flat connect tooltipped" href="https://personal-expense-manager5.herokuapp.com/dashboard"
+                  target="_blank" alt="Live Site" data-position="top" data-delay="50" data-tooltip="View the Live Site!">Live Site</a>
+              </p>
+
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+  </section>
+  <!-- END Content -->
 
+  <!-- Footer -->
+  <footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <!-- <h5 class="white-text">Footer Content</h5>
+          <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+        </div>
+        <div class="col l4 offset-l2 s12">-->
+          <h5>Links</h5>
+          <ul>
+            <li>
+              <a href="https://github.com/captnwalker" target="_blank" class="connect tooltipped" target="_blank" alt="GitHub" data-position="right"
+                data-delay="50" data-tooltip="View Github Repository">GitHub</a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/stevelwalker/" target="_blank" class="connect tooltipped" target="_blank" alt="LinkedIn"
+                data-position="right" data-delay="50" data-tooltip="Connect on LinkedIn">LinkedIn</a>
+            </li>
+            <li>
+              <a href="mailto:steve@stevewalker.us?Subject=Hello,%20I%20viewed%20your%20website%20and%20I%20have%20an%20inquiry.&body=Please include as much detail as possible and Thank You for contacting me."
+                target="_top" class="connect tooltipped" target="_blank" alt="LinkedIn" data-position="right" data-delay="50"
+                data-tooltip="Send Email">Email</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        © 2018 Steve Walker,
+        <small>MBA</small>
+        <!-- <a class="grey-text text-lighten-4 right" href="#!">More Links</a> -->
+      </div>
+    </div>
   </footer>
+  <!-- END Footer -->
 
-  <!-- Image Preloader -->
-  <div class="hidden">
-    <script type="text/javascript">
-      var images = new Array()
-
-      function preload() {
-        for (i = 0; i < preload.arguments.length; i++) {
-          images[i] = new Image()
-          images[i].src = preload.arguments[i]
-        }
-      }
-      preload(
-        "https://captnwalker.github.io/Portfolio6favicon.ico",
-        "https://captnwalker.github.io/Portfolio6/assets/img/shoot_the_curl.gif",
-        "https://captnwalker.github.io/Portfolio6/assets/img/TrainTime.gif",
-        "https://captnwalker.github.io/Portfolio6/assets/img/gify.gif",
-        "https://captnwalker.github.io/Portfolio6/assets/img/clicky1.gif",
-        "https://captnwalker.github.io/Portfolio6/assets/img/rc-small.gif",
-        "https://captnwalker.github.io/Portfolio6/assets/img/workout.png",
-        "https://captnwalker.github.io/Portfolio6/assets/img/LIRI_bot.gif",
-        "https://captnwalker.github.io/Portfolio6/assets/img/hangman.gif",
-        "https://captnwalker.github.io/Portfolio6/assets/img/bamazon.gif",
-        "https://captnwalker.github.io/Portfolio6/assets/img/scraper.png",
-        "https://captnwalker.github.io/Portfolio6/assets/img/coming-soon.jpg",
-        "https://captnwalker.github.io/Portfolio6/assets/img/dilemma.gif",
-        "https://captnwalker.github.io/Portfolio6/assets/img/reservationist1.jpg"
-      )
-    </script>
-
-    <!-- JAVASCRIPT - Must be final item in <body>. -->
-    <!-- Link to Local jQuery file -->
-    <script type="text/javascript" src="assets\js\jquery-3.3.1.min.js"></script>
-
-    <!-- Compiled and minified Materialize JavaScript -->
-    <script src="assets\js\materialize.min.js"></script>
-
-    <!-- Link to local JavaScript file -->
-    <script type="text/javascript" src="assets/js/main.js"></script>
-
-    <!-- Script to call Credits modal -->
-    <script src="assets/js/modal.js"></script>
-
+  <!-- MODALS -->
+  <!-- Modal 1 -->
+  <div id="proj1" class="modal">
+    <div class="modal-content">
+      <h4 id="slw">Steve Walker,
+        <small>MBA</small>
+      </h4>
+      <!-- <img src="img/gallery/slw.jpg" alt="" class="responsive-img"> -->
+      <p class="flow-text">
+        I got my start coding HTML and CSS in Florida in the late-1990’s. I also taught software classes including Adobe Photoshop,
+        Microsoft Excel and Access, all to the Advanced Level, as well as CompTia A+ certification classes. I also ran a
+        small company buliding Web Sites and doing server and network troubleshooting. I left the Computer Industry in the
+        mid-2000’s pursue a successful career in the New York Real Estate Investment Industry. After a period of retirement
+        I took to raise my daughter, I have decided to jump back into the Tech Industry to passionately pursue my goal of
+        becoming a Full Stack Web Developer.</p>
+      <p class="flow-text">
+        In my free time I enjoy World travel having visited countries such as Turkey, Morocco, New Zealand, Australia and all of
+        Europe with my wife and daughter. Our current situation also permits me the flexibility to entertain relocation for
+        job offers in any region of the World.
+      </p>
+    </div>
+    <div class="modal-footer">
+      <a class="modal-action modal-close waves-effect waves-light btn grey darken-1">Dismiss</a>
+    </div>
   </div>
+
+  <!-- Modal 2 -->
+  <div id="proj2" class="modal">
+    <div class="modal-content">
+      <h4>Red Carpet</h4>
+      <img src="img/gallery/redcarpet.jpg" alt="Red Carpet" class="responsive-img">
+      <p>Create and manage your own personal list of award winning (and nominated films), with reviews, a "watched" list, and
+        priority lists based on which awards shows are coming up next. Red Carpet is the perfect tool for your elitist movie-watching
+        needs!
+      </p>
+    </div>
+    <div class="modal-footer">
+      <a class="modal-action modal-close waves-effect waves-light btn grey darken-1">Dismiss</a>
+    </div>
+  </div>
+
+  <!-- Modal 3 -->
+  <div id="proj3" class="modal">
+    <div class="modal-content">
+      <h4>Reservationist</h4>
+      <img src="img/gallery/reservationist.jpg" alt="Reservationist" class="responsive-img">
+      <p>
+        Booking the best table in the house just got easier! "Reservationist-2" allows an individual user or company to record and
+        retrive reservation information. Reservationist is built in React with SCSS styling which permits each individual
+        element to occupy separate files making the product easily scalable and customizable by swapping components in and
+        out as required for a wide variety of end users. Reservationist is fully responsive for a seamless mobile user experience.
+      </p>
+    </div>
+    <div class="modal-footer">
+      <a class="modal-action modal-close waves-effect waves-light btn grey darken-1">Dismiss</a>
+    </div>
+  </div>
+
+  <!-- Modal 4 -->
+  <div id="proj4" class="modal">
+    <div class="modal-content">
+      <h4>Rant and Rave</h4>
+      <img src="img/gallery/gif.gif" alt="Rant and Rave" class="responsive-img">
+      <p>
+        Scream into the digital abyss. "Rant and Rave" is an exercise in building a MVC framework from scratch posing as a Social
+        Media platform. Similar to REACT, Angular or Laravel, this is built on a Custom MVC Framework written in PHP. This
+        framework does include PDO to help prevent SQL injection.
+      </p>
+    </div>
+    <div class="modal-footer">
+      <a class="modal-action modal-close waves-effect waves-light btn grey darken-1">Dismiss</a>
+    </div>
+  </div>
+
+  <!-- Modal 5 -->
+  <div id="proj5" class="modal">
+    <div class="modal-content">
+      <h4>Restaurant Expense Manager</h4>
+      <img src="img/gallery/expense-manager.jpg" alt="Restaurant Expense Manager" class="responsive-img">
+      <p>
+        "Expense-Manager" allows an individual user or company to track business expenses. Expense-Manager is built in React with
+        SCSS styling which permits each individual element to occupy separate files making the product easily scalable and
+        customizable by swapping components in and out as required for a wide variety of end users. The app is fully responsive
+        for a seamless mobile user experience.
+      </p>
+    </div>
+    <div class="modal-footer">
+      <a class="modal-action modal-close waves-effect waves-light btn grey darken-1">Dismiss</a>
+    </div>
+  </div>
+
+  <!-- Modal 6 -->
+  <div id="proj6" class="modal">
+    <div class="modal-content">
+      <h4>Dilemma Decider</h4>
+      <img src="img/gallery/dilemma.jpg" alt="Dilemma Decider" class="responsive-img">
+      <p>
+        Can't Decide? Let "Decision Maker" Do It For You! Written in REACT and presented with Bold and Vibrant SCSS Styling, enter
+        as many choices (options) as your paticular dilemma presents and Dilemma Decider will make that tough decision for
+        you. Media queries make this app as accessible and enjoyable on your mobile device as it is on your desktop. Enjoy!
+      </p>
+    </div>
+    <div class="modal-footer">
+      <a class="modal-action modal-close waves-effect waves-light btn grey darken-1">Dismiss</a>
+    </div>
+  </div>
+
+  <!-- Modal 7 -->
+  <div id="proj7" class="modal">
+    <div class="modal-content">
+      <h4>Personal Expense Manager</h4>
+      <img src="img/gallery/personal-expense-manager.jpg" alt="Personal Expense Manager" class="responsive-img">
+      <p>
+        "Personal-Expense-Manager" allows an individual user or company to track personal or business expenses. Expense-Manager is
+        built in React with SCSS styling which permits each individual element to occupy separate files making the product
+        easily scalable and customizable by swapping components in and out as required for a wide variety of end users. The
+        app is fully responsive for a seamless mobile user experience. This version of the Expense-Manager has been customized
+        for use by individuals.
+      </p>
+    </div>
+    <div class="modal-footer">
+      <a class="modal-action modal-close waves-effect waves-light btn grey darken-1">Dismiss</a>
+    </div>
+  </div>
+
+  <!--Import jQuery before materialize.js-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
 
 </body>
 
