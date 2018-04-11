@@ -14,9 +14,9 @@ $header-height: 270px;
   }
 }
 
-.brand-logo {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 300;
+// Changes the background color of tooltips
+.backdrop {
+  background-color: $primary-color;
 }
 
 body {
@@ -24,49 +24,14 @@ body {
   color: set-text-color($primary-color);
 }
 
-.btn-flat {
-  color: $primary-color;
-  font-weight: 500;
-}
-
-.nav-wrapper {
-  margin-left: 80px;
-  margin-right: 80px;
-}
-
-.main-header {
-  color: white;
-  height: $header-height;
-  width: 100%;
-  margin-bottom: 30px;
-  background-size: cover;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(../img/pexels-photo-247791.png);
-  position: relative;
-
-  h1 {
-    font-family: 'Raleway', sans-serif;
-    font-size: 3.8em;
-    font-weight: 100;
-    margin: 0;
-    padding-top: 30px;
-  }
-}
-
-h3,
-h4 {
+.brand-logo {
+  font-family: 'Raleway', sans-serif;
   font-weight: 300;
 }
 
-h5 {
-  color: $text-color;
-}
-
-.img-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 300px;
+.btn-flat {
+  color: $primary-color;
+  font-weight: 500;
 }
 
 .card-content {
@@ -81,26 +46,49 @@ h5 {
     rgba(0, 0, 0, 0),
     rgba(0, 0, 0, 0.9)
   );
+
+  font-family: 'Raleway', sans-serif !important;
   position: relative;
   width: 100%;
-  font-family: 'Raleway', sans-serif !important;
-}
-
-// Changes the background color of tooltips
-.backdrop {
-  background-color: $primary-color;
 }
 
 .desc {
-  line-height: 1.7rem;
   font-size: 1.2em;
+  line-height: 1.6;
 }
 
-.page-footer {
-  background: $secondary-color;
+h3,
+h4 {
+  font-weight: 300;
+}
 
-  .footer-copyright {
-    background: $secondary-color-light;
+h5 {
+  color: $text-color;
+}
+
+.img-content {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  justify-content: center;
+}
+
+.main-header {
+  color: $text-color;
+  height: $header-height;
+  width: 100%;
+  margin-bottom: 30px;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.575), rgba(0, 0, 0, 0.575)),
+    url(../img/pexels-photo-247791.png);
+  position: relative;
+
+  h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 3.8em;
+    font-weight: 100;
+    margin: 0;
+    padding-top: 30px;
   }
 }
 
@@ -112,6 +100,19 @@ h5 {
   background-color: darken($modal-bg-color, $amount: 5) !important;
   // Move modal dismiss btn 25px to the left
   padding-right: 1.5625rem !important;
+}
+
+.nav-wrapper {
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.page-footer {
+  background: $secondary-color;
+
+  .footer-copyright {
+    background: $secondary-color-light;
+  }
 }
 
 .toast {
@@ -129,8 +130,8 @@ h5 {
 }
 
 .sidenav-header {
-  padding-top: 20px;
   padding-bottom: 10px;
+  padding-top: 20px;
 }
 
 // Changes font for 1st modal only

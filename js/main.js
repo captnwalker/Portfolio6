@@ -1,4 +1,10 @@
 $(document).ready(function() {
+  // Display toast instructions onload of index.html for 1.2 seconds, and on click of Portfolio logo. Place this code at top of js so it runs first to avoid a slight delay in execution.
+  Materialize.toast('Please Scroll Down', 1200, 'rounded', function() {
+    var container = $('#toast-container');
+    window.location.href = '#';
+  });
+
   // Init sideNav
   $('.button-collapse').sideNav({
     menuWidth: 200, // Default is 300
@@ -16,7 +22,7 @@ $(document).ready(function() {
   // Init Tooltips
   $('.tooltipped').tooltip();
 
-  // Scroll Fire
+  // Scroll Fire params
   const options = [
     {
       selector: '.row-1',
@@ -70,10 +76,4 @@ $(document).ready(function() {
   ];
 
   Materialize.scrollFire(options);
-});
-
-// Display toast instructions onload of index.html for 1.2 seconds, and on click of Portfolio logo
-Materialize.toast('Please Scroll Down', 1200, 'rounded', function() {
-  var container = $('#toast-container');
-  window.location.href = '#';
 });

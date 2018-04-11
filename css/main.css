@@ -6835,36 +6835,34 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   stroke-linecap: round;
   /*shape-rendering: crispEdges;*/ }
 
-.brand-logo {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 300; }
+.backdrop {
+  background-color: #0097a7; }
 
 body {
   background: #0097a7;
   color: #fff; }
 
+.brand-logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300; }
+
 .btn-flat {
   color: #0097a7;
   font-weight: 500; }
 
-.nav-wrapper {
-  margin-left: 80px;
-  margin-right: 80px; }
+.card-content {
+  color: #0097a7; }
 
-.main-header {
-  color: white;
-  height: 270px;
-  width: 100%;
-  margin-bottom: 30px;
+.card-title {
   background-size: cover;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/pexels-photo-247791.png);
-  position: relative; }
-  .main-header h1 {
-    font-family: 'Raleway', sans-serif;
-    font-size: 3.8em;
-    font-weight: 100;
-    margin: 0;
-    padding-top: 30px; }
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9));
+  font-family: 'Raleway', sans-serif !important;
+  position: relative;
+  width: 100%; }
+
+.desc {
+  font-size: 1.2em;
+  line-height: 1.6; }
 
 h3,
 h4 {
@@ -6876,30 +6874,23 @@ h5 {
 .img-content {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  height: 300px; }
+  height: 300px;
+  justify-content: center; }
 
-.card-content {
-  color: #0097a7; }
-
-.card-title {
-  background-size: cover;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9));
-  position: relative;
+.main-header {
+  color: #fff;
+  height: 270px;
   width: 100%;
-  font-family: 'Raleway', sans-serif !important; }
-
-.backdrop {
-  background-color: #0097a7; }
-
-.desc {
-  line-height: 1.7rem;
-  font-size: 1.2em; }
-
-.page-footer {
-  background: #212121; }
-  .page-footer .footer-copyright {
-    background: #424242; }
+  margin-bottom: 30px;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.575), rgba(0, 0, 0, 0.575)), url(../img/pexels-photo-247791.png);
+  position: relative; }
+  .main-header h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 3.8em;
+    font-weight: 100;
+    margin: 0;
+    padding-top: 30px; }
 
 .modal {
   background: #00897b; }
@@ -6907,6 +6898,15 @@ h5 {
 .modal-footer {
   background-color: #007064 !important;
   padding-right: 1.5625rem !important; }
+
+.nav-wrapper {
+  margin-left: 80px;
+  margin-right: 80px; }
+
+.page-footer {
+  background: #212121; }
+  .page-footer .footer-copyright {
+    background: #424242; }
 
 .toast {
   background: rgba(130, 240, 248, 0.45); }
@@ -6921,8 +6921,8 @@ h5 {
   opacity: 0; }
 
 .sidenav-header {
-  padding-top: 20px;
-  padding-bottom: 10px; }
+  padding-bottom: 10px;
+  padding-top: 20px; }
 
 #slw {
   font-family: 'Raleway', sans-serif; }
