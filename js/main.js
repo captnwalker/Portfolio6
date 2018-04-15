@@ -1,6 +1,6 @@
-$(document).ready(function() {
-  // Display toast instructions onload of index.html for 1.2 seconds, and on click of Portfolio logo. Place this code at top of js so it runs first to avoid a slight delay in execution.
-  Materialize.toast('Please Scroll Down', 1200, 'rounded', function() {
+$(document).ready(function () {
+  // Display toast instructions onload of index.html for 3.25 seconds, and on click of Portfolio logo. Place this code at top of js so it runs first to avoid a slight delay in execution.
+  Materialize.toast('Please Scroll Down', 3250, 'rounded', function () {
     var container = $('#toast-container');
     window.location.href = '#';
   });
@@ -27,49 +27,49 @@ $(document).ready(function() {
     {
       selector: '.row-1',
       offset: 100,
-      callback: function(el) {
+      callback: function (el) {
         Materialize.fadeInImage($(el));
       }
     },
     {
       selector: '.row-2',
       offset: 250,
-      callback: function(el) {
+      callback: function (el) {
         Materialize.fadeInImage($(el));
       }
     },
     {
       selector: '.row-3',
       offset: 300,
-      callback: function(el) {
+      callback: function (el) {
         Materialize.fadeInImage($(el));
       }
     },
     {
       selector: '.row-4',
       offset: 340,
-      callback: function(el) {
+      callback: function (el) {
         Materialize.fadeInImage($(el));
       }
     },
     {
       selector: '.row-5',
       offset: 380,
-      callback: function(el) {
+      callback: function (el) {
         Materialize.fadeInImage($(el));
       }
     },
     {
       selector: '.row-6',
       offset: 420,
-      callback: function(el) {
+      callback: function (el) {
         Materialize.fadeInImage($(el));
       }
     },
     {
       selector: '.row-7',
       offset: 460,
-      callback: function(el) {
+      callback: function (el) {
         Materialize.fadeInImage($(el));
       }
     }
