@@ -6947,6 +6947,9 @@ strong {
     height: 180px; }
 
   .sub-banner {
-    font-size: 1.5em !important; } }
+    font-size: 1.5em !important; }
+
+  .tooltipped {
+    cursor: pointer; } }
 
 /*# sourceMappingURL=main.css.map */
