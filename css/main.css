@@ -6031,7 +6031,7 @@ input[type=range]:focus::-ms-fill-upper {
     background-color: inherit;
     border-radius: inherit;
     transition: opacity .3s, transform .3s;
-    animation: pulse-animation 1s cubic-bezier(0.24, 0, 0.38, 1) infinite;
+    animation: pulse-animation 1.8s cubic-bezier(0.24, 0, 0.38, 1) infinite;
     z-index: -1; }
 
 @keyframes pulse-animation {
@@ -6902,6 +6902,9 @@ h5 {
   background-color: #00808e !important;
   padding-right: 1.5625rem !important; }
 
+#nav-spacer {
+  margin-top: 1rem; }
+
 .nav-wrapper {
   margin-left: 80px;
   margin-right: 80px; }
@@ -6915,7 +6918,7 @@ strong {
   font-size: 1.2em; }
 
 .toast {
-  background: rgba(130, 240, 248, 0.45); }
+  background: #0097a7; }
 
 .row-1,
 .row-2,

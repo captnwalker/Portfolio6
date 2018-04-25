@@ -103,6 +103,10 @@ h5 {
   padding-right: 1.5625rem !important;
 }
 
+#nav-spacer {
+  margin-top: 1rem;
+}
+
 .nav-wrapper {
   margin-left: 80px;
   margin-right: 80px;
@@ -120,7 +124,7 @@ strong {
 }
 
 .toast {
-  background: rgba(130, 240, 248, 0.45);
+  background: $primary-color;
 }
 
 .row-1,
