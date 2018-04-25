@@ -6869,7 +6869,7 @@ h4 {
   font-weight: 300; }
 
 h5 {
-  color: #fff; }
+  color: red; }
 
 .img-content {
   display: flex;
@@ -6878,7 +6878,7 @@ h5 {
   justify-content: center; }
 
 #in-line-link {
-  color: #f8f865; }
+  color: red; }
 
 .main-header {
   color: #fff;

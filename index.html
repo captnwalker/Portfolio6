@@ -2,6 +2,7 @@
 <html>
 
 <head>
+
   <!--Import Google Icon Font-->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
@@ -21,6 +22,7 @@
   <link rel="icon" type="image/x-icon" href="favicon.ico?v=2" />
 
   <title>Steve Walker's Portfolio</title>
+
 </head>
 
 <body>
@@ -101,9 +103,14 @@
           <div class="img-content">
             <h3>About Me</h3>
             <p class="desc">Welcome! I'm an accomplished "Mobile-First" Front-End Developer with Full Stack Experience working in REACT,
-              Laravel, PHP, JavaScript, MySql and Mongo to name just a few. Click the icon on my image for my Bio, then scroll
-              down and have a look around at some of my work. Thank you for stopping by and, please, send me an email if
-              you would like to learn more.</p>
+              Laravel, PHP, JavaScript, MySql and Mongo to name just a few. Click
+              <i class="material-icons">info_outline</i>
+              on my image to view my Bio, then scroll down and have a look around at some of my work. Thank you for stopping by and, please,
+              send me an
+              <a id="in-line-link" href="mailto:steve@stevewalker.us?Subject=Hello,%20I%20viewed%20your%20website%20and%20I%20have%20an%20inquiry.&body=Please include as much detail as possible and Thank You for contacting me."
+                target="_top">
+                <strong>email</strong>
+              </a> if you would like to learn more.</p>
           </div>
         </div>
         <div class="col m6">
@@ -114,7 +121,7 @@
                 <small>MBA</small>
               </span>
               <a href="#proj1" class="btn-floating halfway-fab waves-effect waves-light cyan darken-2 modal-trigger">
-                <i class="material-icons">info_outline</i>
+                <i class="material-icons tooltipped" data-position="top" data-delay="50" data-tooltip="View Bio">info_outline</i>
               </a>
             </div>
             <div class="card-content">
@@ -144,14 +151,14 @@
               <img src="img/gallery/redcarpet.jpg" alt="Red Carpet">
               <span class="card-title">Red Carpet</span>
               <a href="#proj2" class="btn-floating halfway-fab waves-effect waves-light cyan darken-2 modal-trigger">
-                <i class="material-icons">add</i>
+                <i class="material-icons tooltipped" data-position="top" data-delay="50" data-tooltip="Enlarge">add</i>
               </a>
             </div>
             <div class="card-content">
 
               <p class="center-align">
-                <a class="waves-effect waves-teal btn-flat connect tooltipped" href="https://github.com/captnwalker" target="_blank" alt="GitHub"
-                  data-position="top" data-delay="50" data-tooltip="View this Projects Code">GitHub</a>
+                <a class="waves-effect waves-teal btn-flat connect tooltipped" href="https://github.com/captnwalker/red-carpet" target="_blank"
+                  alt="GitHub" data-position="top" data-delay="50" data-tooltip="View this Projects Code">GitHub</a>
 
                 <a class="waves-effect waves-teal btn-flat connect tooltipped" href="http://red-carpet-app.herokuapp.com/" target="_blank"
                   alt="Github" data-position="top" data-delay="50" data-tooltip="View the Live Site!">Live Site</a>
@@ -163,9 +170,11 @@
         <div class="col m6 hide-on-small-only">
           <div class="img-content">
             <h3>Red Carpet</h3>
-            <p class="desc">Create and manage your own personal list of award winning (and nominated films), with reviews, a watched list,
-              and priority lists based on which awards shows are coming up next. Red Carpet is the perfect tool for your
-              elitist movie-watching needs!
+            <p class="desc">Built with Sequalize, Handlebars, Passport and a proprietary 11,000 row MySql database of every Academy Award
+              winner & nominee since 1927, "Red Carpet" permits the user to register & login, create a watch list, rate and
+              purchase the outstanding films. Click
+              <strong>+</strong>
+              to learn more.
             </p>
           </div>
         </div>
@@ -174,7 +183,7 @@
       <!-- Row 3 -->
       <div class="row row-3">
         <div class="col m6 hide-on-small-only">
-          <div class="img-">
+          <div class="img-content">
             <h3>Reservationist</h3>
             <p class="desc">Booking the best table in the house just got easier! "Reservationist" allows an individual user or company to
               record and retrive reservation information. Reservationist is built in React with SCSS styling which permits
@@ -188,7 +197,7 @@
               <img src="img/gallery/reservationist.jpg" alt="Reservationist">
               <span class="card-title">Reservationist</span>
               <a href="#proj3" class="btn-floating halfway-fab waves-effect waves-light cyan darken-2 modal-trigger">
-                <i class="material-icons">add</i>
+                <i class="material-icons tooltipped" data-position="top" data-delay="50" data-tooltip="Enlarge">add</i>
               </a>
             </div>
             <div class="card-content">
@@ -211,10 +220,10 @@
         <div class="col m6">
           <div class="card">
             <div class="card-image">
-              <img src="img/gallery/rant-rave.png" alt="">
+              <img src="img/gallery/rant-rave.png" alt="Rant and Rave">
               <span class="card-title">Rant and Rave</span>
               <a href="#proj4" class="btn-floating halfway-fab waves-effect waves-light cyan darken-2 modal-trigger">
-                <i class="material-icons">add</i>
+                <i class="material-icons tooltipped" data-position="top" data-delay="50" data-tooltip="Enlarge">add</i>
               </a>
             </div>
             <div class="card-content">
@@ -253,10 +262,10 @@
         <div class="col m6">
           <div class="card">
             <div class="card-image">
-              <img src="img/gallery/expense-manager.jpg" alt="">
+              <img src="img/gallery/expense-manager.jpg" alt="Expense Manager">
               <span class="card-title">Restaurant Expense Manager</span>
               <a href="#proj5" class="btn-floating halfway-fab waves-effect waves-light cyan darken-2 modal-trigger">
-                <i class="material-icons">add</i>
+                <i class="material-icons tooltipped" data-position="top" data-delay="50" data-tooltip="Enlarge">add</i>
               </a>
             </div>
             <div class="card-content">
@@ -282,7 +291,7 @@
               <img src="img/gallery/dilemma.jpg" alt="Dilemma Decider">
               <span class="card-title">Dilemma Decider</span>
               <a href="#proj6" class="btn-floating halfway-fab waves-effect waves-light cyan darken-2 modal-trigger">
-                <i class="material-icons">add</i>
+                <i class="material-icons tooltipped" data-position="top" data-delay="50" data-tooltip="Enlarge">add</i>
               </a>
             </div>
             <div class="card-content">
@@ -323,10 +332,10 @@
         <div class="col m6">
           <div class="card">
             <div class="card-image">
-              <img src="img/gallery/personal-expense-manager.jpg" alt="">
+              <img src="img/gallery/personal-expense-manager.jpg" alt="Personal Expense Manager">
               <span class="card-title">Personal Expense Manager</span>
               <a href="#proj7" class="btn-floating halfway-fab waves-effect waves-light cyan darken-2 modal-trigger">
-                <i class="material-icons">add</i>
+                <i class="material-icons tooltipped" data-position="top" data-delay="50" data-tooltip="Enlarge">add</i>
               </a>
             </div>
             <div class="card-content">
@@ -411,7 +420,7 @@
     <div class="modal-content">
       <h4>Red Carpet</h4>
       <img src="img/gallery/redcarpet.jpg" alt="Red Carpet" class="responsive-img">
-      <p>Create and manage your own personal list of award winning (and nominated films), with reviews, a "watched" list, and
+      <p>Create and manage your own personal list of award winning (and nominated films), with reviews, a watched list, and
         priority lists based on which awards shows are coming up next. Red Carpet is the perfect tool for your elitist movie-watching
         needs!
       </p>

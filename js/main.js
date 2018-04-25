@@ -1,6 +1,6 @@
 $(document).ready(function () {
-  // Display toast instructions onload of index.html for 3.25 seconds, and on click of Portfolio logo. Place this code at top of js so it runs first to avoid a slight delay in execution.
-  Materialize.toast('Please Scroll Down', 3250, 'rounded', function () {
+  // Display toast instructions onload of index.html for 2.25 seconds, and on click of Portfolio logo. Place this code at top of js so it runs first to avoid a slight delay in execution.
+  Materialize.toast('Please Scroll Down', 2250, 'rounded', function () {
     var container = $('#toast-container');
     window.location.href = '#';
   });
@@ -23,8 +23,7 @@ $(document).ready(function () {
   $('.tooltipped').tooltip();
 
   // Scroll Fire params
-  const options = [
-    {
+  const options = [{
       selector: '.row-1',
       offset: 100,
       callback: function (el) {
