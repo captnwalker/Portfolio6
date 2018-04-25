@@ -20,7 +20,17 @@ $(document).ready(function () {
   $('#modal1').modal('close');
 
   // Init Tooltips
-  $('.tooltipped').tooltip();
+  // $('.tooltipped').tooltip();
+  // if (!window.matchMedia || (window.matchMedia("(max-width: 767px)").matches)) {
+  //   $('.tooltipped').tooltip(remove);
+  // }
+
+  function isTouchDevice() {
+    return true == ("ontouchstart" in window || window.DocumentTouch && document instanceof DocumentTouch);
+  }
+  if (isTouchDevice() === false) {
+    $("[rel='tooltip']").tooltip();
+  }
 
   // Scroll Fire params
   const options = [{
@@ -53,21 +63,21 @@ $(document).ready(function () {
     },
     {
       selector: '.row-5',
-      offset: 380,
+      offset: 360,
       callback: function (el) {
         Materialize.fadeInImage($(el));
       }
     },
     {
       selector: '.row-6',
-      offset: 420,
+      offset: 385,
       callback: function (el) {
         Materialize.fadeInImage($(el));
       }
     },
     {
       selector: '.row-7',
-      offset: 460,
+      offset: 410,
       callback: function (el) {
         Materialize.fadeInImage($(el));
       }
