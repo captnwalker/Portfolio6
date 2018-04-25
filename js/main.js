@@ -20,17 +20,7 @@ $(document).ready(function () {
   $('#modal1').modal('close');
 
   // Init Tooltips
-  // $('.tooltipped').tooltip();
-  // if (!window.matchMedia || (window.matchMedia("(max-width: 767px)").matches)) {
-  //   $('.tooltipped').tooltip(remove);
-  // }
-
-  function isTouchDevice() {
-    return true == ("ontouchstart" in window || window.DocumentTouch && document instanceof DocumentTouch);
-  }
-  if (isTouchDevice() === false) {
-    $("[rel='tooltip']").tooltip();
-  }
+  $('.tooltipped').tooltip();
 
   // Scroll Fire params
   const options = [{
