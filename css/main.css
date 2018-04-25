@@ -6896,10 +6896,10 @@ h5 {
     padding-top: 30px; }
 
 .modal {
-  background: #00897b; }
+  background: #0097a7; }
 
 .modal-footer {
-  background-color: #007064 !important;
+  background-color: #00808e !important;
   padding-right: 1.5625rem !important; }
 
 .nav-wrapper {
@@ -6910,6 +6910,9 @@ h5 {
   background: #212121; }
   .page-footer .footer-copyright {
     background: #424242; }
+
+strong {
+  font-size: 1.2em; }
 
 .toast {
   background: rgba(130, 240, 248, 0.45); }
