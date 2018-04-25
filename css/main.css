@@ -6936,14 +6936,17 @@ strong {
 #slw {
   font-family: 'Raleway', sans-serif; }
 
+@media only screen and (max-width: 992px) {
+  h3 {
+    font-size: 2.5em; } }
 @media only screen and (max-width: 600px) {
   .banner {
     font-size: 2em !important; }
 
-  .sub-banner {
-    font-size: 1.5em !important; }
-
   .main-header {
-    height: 180px; } }
+    height: 180px; }
+
+  .sub-banner {
+    font-size: 1.5em !important; } }
 
 /*# sourceMappingURL=main.css.map */
