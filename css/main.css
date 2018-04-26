@@ -6877,7 +6877,7 @@ h5 {
   height: 300px;
   justify-content: center; }
 
-#in-line-link {
+.in-line-link {
   color: #f8f865; }
 
 .main-header {
@@ -6939,8 +6939,8 @@ table.highlight tbody tr:hover {
 #slw {
   font-family: 'Raleway', sans-serif; }
 
-thead {
-  font-size: 1.2em; }
+.tbl {
+  font-size: 1.4em; }
 
 @media only screen and (max-width: 992px) {
   h3 {
