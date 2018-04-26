@@ -6917,6 +6917,9 @@ h5 {
 strong {
   font-size: 1.2em; }
 
+table.highlight tbody tr:hover {
+  background-color: #00525b !important; }
+
 .toast {
   background: #0097a7; }
 
@@ -6936,6 +6939,9 @@ strong {
 #slw {
   font-family: 'Raleway', sans-serif; }
 
+thead {
+  font-size: 1.2em; }
+
 @media only screen and (max-width: 992px) {
   h3 {
     font-size: 2.5em; } }
@@ -6947,9 +6953,6 @@ strong {
     height: 180px; }
 
   .sub-banner {
-    font-size: 1.5em !important; }
-
-  .tooltipped {
-    cursor: pointer; } }
+    font-size: 1.5em !important; } }
 
 /*# sourceMappingURL=main.css.map */

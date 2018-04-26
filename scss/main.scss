@@ -65,6 +65,9 @@ h5 {
   color: $text-color;
 }
 
+// .highlight {
+//   color: yellow;
+// }
 .img-content {
   display: flex;
   flex-direction: column;
@@ -122,6 +125,13 @@ strong {
   font-size: 1.2em;
 }
 
+table.highlight tbody tr:hover {
+  background-color: $primary-color-dark !important;
+}
+
+// th {
+//   color: $in-line-link;
+// }
 .toast {
   background: $primary-color;
 }
@@ -146,6 +156,13 @@ strong {
   font-family: 'Raleway', sans-serif;
 }
 
+// table {
+//   width: 80%;
+// }
+thead {
+  font-size: 1.2em;
+}
+
 // Media queries for med viewports
 @media #{$medium-and-down} {
   h3 {
@@ -163,8 +180,5 @@ strong {
   }
   .sub-banner {
     font-size: 1.5em !important;
-  }
-  .tooltipped {
-    cursor: pointer;
   }
 }
