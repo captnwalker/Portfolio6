@@ -51,6 +51,11 @@ body {
   line-height: 1.6;
 }
 
+// .divider {
+//   height: 1px;
+//   overflow: hidden;
+//   background-color: color("grey", "lighten-2");
+// }
 h3,
 h4 {
   font-weight: 300;
@@ -60,6 +65,10 @@ h5 {
   color: $text-color;
 }
 
+// #home {
+//   display: inline-block;
+//   float: left;
+// }
 .img-content {
   display: flex;
   flex-direction: column;
@@ -166,5 +175,7 @@ table.highlight tbody tr:hover {
   }
   .sub-banner {
     font-size: 1.5em !important;
-  }
+  } // .tooltip {
+  //   visibility: hidden;
+  // }
 }
