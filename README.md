@@ -1,6 +1,6 @@
-# Steve Walker's Portfolio - Updated April 2018
+# Steve Walker's Portfolio - Updated May 2018
 
-> Showcase of Steve Walker's Projects through April 2018
+> Showcase of Steve Walker's Projects through May 2018
 
 ## Link to Live Site
 
@@ -12,9 +12,10 @@
 
 ### Tech Stack
 
-* SCSS
-* HTML5
+* SCSS/SASS
+* Compiled with Koala
 * JavaScript
+* HTML5
 * MaterializeCSS
 * Google Fonts
 
@@ -24,4 +25,4 @@
 
 * **Steve Walker** | [LinkedIn](https://www.linkedin.com/in/stevelwalker/)
 
-#### _Initial Deployment - April 2018 | Last update - April 2018_
+#### _Initial Deployment - May 2018 | Last update - May 2018_
